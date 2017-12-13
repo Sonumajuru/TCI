@@ -1,18 +1,17 @@
-import org.junit.Test;
+package com.tci.crawling;
 
-import java.util.ArrayList;
+import org.junit.Test;
 import java.util.List;
+import java.util.ArrayList;
 
 import static junit.framework.TestCase.assertEquals;
-import static org.junit.Assert.*;
 
 public class DummyClassTest {
 
-    public DummyClass basicStatistic = new DummyClass();
-    public List<Double> numList = new ArrayList<Double>();
-    public List<Integer> numLists = new ArrayList<Integer>();
+    private DummyClass basicStatistic = new DummyClass();
+    private List<Double> numList = new ArrayList<Double>();
 
-    public void addToList(){
+    private void addToList(){
         for (double i = 0; i < 20; i++) {
             numList.add(i);
         }
@@ -23,7 +22,6 @@ public class DummyClassTest {
     // Testing for Correct Mean
     public void testToCalculateTheMean() throws Exception {
         addToList();
-//      Assert.assertEquals(17, basicStatistic.getMean(numList));
         assertEquals("The resulting mean value is now correct for the value",9.5, basicStatistic.getMean(numList));
     }
 

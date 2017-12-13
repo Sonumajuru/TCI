@@ -1,14 +1,16 @@
+package com.tci.crawling;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Book {
+public class Movie {
     private String name;
     private String genre;
     private String format;
     private int year;
-    private List<String> authors =new ArrayList<>();
-    private String publisher;
-    private String ISBN;
+    private String director;
+    private List<String> writer =new ArrayList<>();
+    private List<String> stars =new ArrayList<>();
 
     public String getName() {
         return name;
@@ -42,39 +44,37 @@ public class Book {
         this.year = year;
     }
 
-
-
-    public String getPublisher() {
-        return publisher;
+    public String getDirector() {
+        return director;
     }
 
-    public void setPublisher(String publisher) {
-        this.publisher = publisher;
+    public void setDirector(String director) {
+        this.director = director;
     }
 
-    public String getISBN() {
-        return ISBN;
+    public List<String> getWriter() {
+        return writer;
     }
 
-    public void setISBN(String ISBN) {
-        this.ISBN = ISBN;
+    public void setWriter(List<String> writer) {
+        this.writer = writer;
     }
 
-    public List<String> getAuthors() {
-        return authors;
+    public List<String> getStars() {
+        return stars;
     }
 
-    public void setAuthors(List<String> authors) {
-        this.authors = authors;
+    public void setStars(List<String> stars) {
+        this.stars = stars;
     }
 
-    public Book(String name, String genre, String format, int year, List<String> authors, String publisher, String ISBN) {
+    public Movie(String name, String genre, String format, int year, String director, List<String> writer, List<String> stars) {
         this.name = name;
         this.genre = genre;
         this.format = format;
         this.year = year;
-        this.authors = authors;
-        this.publisher = publisher;
-        this.ISBN = ISBN;
+        this.director = director;
+        this.writer = writer;
+        this.stars = stars;
     }
 }

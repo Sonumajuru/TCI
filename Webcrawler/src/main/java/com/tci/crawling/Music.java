@@ -1,3 +1,5 @@
+package com.tci.crawling;
+
 public class Music {
     private String name;
     private String genre;
