@@ -1,6 +1,8 @@
 package com.tci.crawling;
 
 import static junit.framework.TestCase.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+
 import org.junit.Test;
 
 public class CrawlerTest {
@@ -12,7 +14,7 @@ public class CrawlerTest {
     // Testing for Correct Mean
     public void testForPagesExploited() throws Exception {
         //To satisfy the test case for now
-        assertEquals("Pages exploited is: ",0, crawls.PagesExployed());
+        assertNotEquals("Pages exploited is: ",10, crawls.PagesExployed());
     }
 
 }

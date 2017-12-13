@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 import static junit.framework.TestCase.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertTrue;
 
 public class DummyClassTest {
 
@@ -22,7 +24,16 @@ public class DummyClassTest {
     // Testing for Correct Mean
     public void testToCalculateTheMean() throws Exception {
         addToList();
+        assertTrue(true);
         assertEquals("The resulting mean value is now correct for the value",9.5, basicStatistic.getMean(numList));
+    }
+
+    /** Mean */
+    @Test
+    // Testing for Incorrect Mean
+    public void testInvalidCalculateTheMean() throws Exception {
+        addToList();
+        assertNotEquals("The resulting mean value is now correct for the value",10.5, basicStatistic.getMean(numList));
     }
 
 }
