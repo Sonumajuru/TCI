@@ -2,38 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f43e2535-d889-44d4-af04-63b9b5cbc097" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tci/crawling/Crawler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tci/crawling/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tci/crawling/DummyClassTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/DummyClassTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-DummyClassTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Web.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/DummyClassTest.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/tci/crawling/Book.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DummyClass.java" afterPath="$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Movie.java" afterPath="$PROJECT_DIR$/src/main/java/com/tci/crawling/Movie.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Music.java" afterPath="$PROJECT_DIR$/src/main/java/com/tci/crawling/Music.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileContent/annotation-processors.bin" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileContent/annotation-processors.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileContent/fileContent.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/resourceHashesCache.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Webcrawler.iml" afterPath="$PROJECT_DIR$/.idea/modules/Webcrawler.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Webcrawler_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Webcrawler_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Webcrawler_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Webcrawler_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -95,15 +74,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#SearchAlgorithmDFS#0;class#Crawler#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -299,8 +287,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3025810924000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1175464075" />
+        <entry key="$PROJECT_DIR$" value="3025938320000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="4014878284" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -422,7 +410,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/DummyClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/Movie.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/Web.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Crawler.java" />
@@ -432,6 +419,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/tci/crawling/DummyClassTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tci/crawling/Crawler.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -482,6 +470,32 @@
             <path>
               <item name="Webcrawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="Webcrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Webcrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webcrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Webcrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webcrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Webcrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webcrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Webcrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webcrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crawling" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -615,7 +629,7 @@
       <module name="Webcrawler_main" />
       <envs />
     </configuration>
-    <configuration name="Webcrawler [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Webcrawler [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -626,7 +640,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="check" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -733,17 +747,17 @@
       <item index="0" class="java.lang.String" itemvalue="Gradle.Webcrawler [test]" />
       <item index="1" class="java.lang.String" itemvalue="Application.Main" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.DummyClassTest (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.Webcrawler [build]" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CrawlerTest.testForPagesExploited" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.CrawlerTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CrawlerTest.testForPagesExploited" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CrawlerTest" />
+      <item index="5" class="java.lang.String" itemvalue="Gradle.Webcrawler [check]" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CrawlerTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CrawlerTest.testForPagesExploited" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DummyClassTest (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.Webcrawler [build]" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.Webcrawler [check]" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CrawlerTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DummyClassTest (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CrawlerTest.testForPagesExploited" />
       </list>
     </recent_temporary>
   </component>
@@ -767,7 +781,7 @@
       <workItem from="1513072946344" duration="18000" />
       <workItem from="1513072967423" duration="860000" />
       <workItem from="1513080755002" duration="1313000" />
-      <workItem from="1513196610357" duration="3362000" />
+      <workItem from="1513196610357" duration="3806000" />
     </task>
     <servers />
   </component>
@@ -778,8 +792,8 @@
     <history-entry file="CrawlerTest - 2017.12.13 at 22h 21m 17s.xml">
       <configuration name="CrawlerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrawlerTest_testForPagesExploited - 2017.12.13 at 22h 16m 35s.xml">
-      <configuration name="CrawlerTest.testForPagesExploited" configurationId="JUnit" />
+    <history-entry file="CrawlerTest - 2017.12.13 at 22h 35m 23s.xml">
+      <configuration name="CrawlerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CrawlerTest_testForPagesExploited - 2017.12.13 at 22h 18m 48s.xml">
       <configuration name="CrawlerTest.testForPagesExploited" configurationId="JUnit" />
@@ -787,24 +801,24 @@
     <history-entry file="CrawlerTest_testForPagesExploited - 2017.12.13 at 22h 18m 53s.xml">
       <configuration name="CrawlerTest.testForPagesExploited" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DummyClassTest - 2017.12.13 at 21h 55m 43s.xml">
-      <configuration name="DummyClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DummyClassTest_(1) - 2017.12.13 at 22h 06m 31s.xml">
+    <history-entry file="DummyClassTest_(1) - 2017.12.13 at 22h 35m 14s.xml">
       <configuration name="DummyClassTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DummyClassTest_(1) - 2017.12.13 at 22h 11m 25s.xml">
-      <configuration name="DummyClassTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Webcrawler_[test] - 2017.12.13 at 21h 55m 26s.xml">
-      <configuration name="Webcrawler [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="Webcrawler_[check] - 2017.12.13 at 22h 38m 25s.xml">
+      <configuration name="Webcrawler [check]" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="Webcrawler_[test] - 2017.12.13 at 22h 21m 21s.xml">
       <configuration name="Webcrawler [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="Webcrawler_[test] - 2017.12.13 at 22h 35m 51s.xml">
+      <configuration name="Webcrawler [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Webcrawler_[test] - 2017.12.13 at 22h 38m 28s.xml">
+      <configuration name="Webcrawler [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5973000" />
+    <option name="totallyTimeSpent" value="6417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -833,7 +847,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23962805" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22889842" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16809729" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1059,14 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="58" lean-forward="false" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-296">
@@ -1105,12 +1111,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#SearchAlgorithmDFS#0;class#Crawler#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
