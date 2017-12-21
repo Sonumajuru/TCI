@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tci.crawling.DummyClassTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-12-19T12:50:55" hostname="DESKTOP-K3MVC99" time="0.009">
+<testsuite name="com.tci.crawling.DummyClassTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-12-21T15:41:32" hostname="MacBookPro.local" time="0.004">
   <properties/>
-  <testcase name="testToCalculateTheMean" classname="com.tci.crawling.DummyClassTest" time="0.006"/>
+  <testcase name="testToCalculateTheMean" classname="com.tci.crawling.DummyClassTest" time="0.004"/>
   <testcase name="testInvalidCalculateTheMean" classname="com.tci.crawling.DummyClassTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

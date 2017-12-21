@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tci.crawling.CrawlerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-19T12:50:55" hostname="DESKTOP-K3MVC99" time="0.005">
+<testsuite name="com.tci.crawling.CrawlerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-12-21T15:41:32" hostname="MacBookPro.local" time="0.001">
   <properties/>
-  <testcase name="testForPagesExploited" classname="com.tci.crawling.CrawlerTest" time="0.005"/>
+  <testcase name="testForPagesExploited" classname="com.tci.crawling.CrawlerTest" time="0.0"/>
+  <testcase name="testForPagesExploited2" classname="com.tci.crawling.CrawlerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

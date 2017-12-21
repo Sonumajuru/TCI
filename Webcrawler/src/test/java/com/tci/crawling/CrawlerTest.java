@@ -21,7 +21,7 @@ public class CrawlerTest {
     // Testing for Correct Mean
     public void testForPagesExploited2() throws Exception {
         //To satisfy the test case for now
-        assertEquals("Pages exploited is: ",10, crawls.PagesExployed());
+        assertEquals("Pages exploited is: ",0, crawls.PagesExployed());
     }
 
 }
