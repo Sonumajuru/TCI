@@ -1,5 +1,7 @@
 package com.tci.crawling;
 
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -7,79 +9,206 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 
-public class Crawler {
+    public class Crawler {
 
-    private static int pages;
-    private static int depth;
-    private static long startTime;
-    private static long endTime;
-    private static  long totalTime;
+        /**
+         * variable for pages
+         */
+        private static int pages;
+        /**
+         * variable for depth
+         */
+        private static int depth;
+        /**
+         * variable for start time
+         */
+        private static long startTime;
+        /**
+         * variable for end time
+         */
+        private static long endTime;
+        /**
+         * variable for json Array
+         */
+        private static JSONArray jsonArray;
+        private String URL;
+        /**
+         * Variable json Object
+         */
+        private JSONObject jsonObj;
+        /**
+         * Varibale json object 2
+         */
+        private JSONObject jsonObject2;
+        /**
+         * Docuemnt for connection
+         */
+        private Document doc;
+        /**
+         * Variable used to for converting the length of the url depending on each browser
+         */
+        private int sLength;
 
-    Crawler() {
+        public boolean connection = false;
 
-        startTime= System.currentTimeMillis();
-        pages=0;
-        depth=0;
+        /**
+          *Constructor @param URL
+         */
+        Crawler(String URL) {
+            this.URL=URL;
+            connectToJsoup();
+        }
+
+        /**
+         * Method get URL @return URl
+         */
+    public String getURL() {
+        return URL;
     }
 
-    int PagesExployed()
-    {
-        return pages;
+    /** Method used to connect */
+    public boolean connectToJsoup(){
+        startTime = System.currentTimeMillis();
+        pages = 0;
+        depth = 0;
+
+        jsonObj = new JSONObject();
+        jsonObject2 = new JSONObject();
+        try {
+            doc = Jsoup.connect(URL).get();
+            connection = true;
+            return connection;
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 
-    int SearchedDepth()
-    {
-        return depth;
+    /** Method used to check for the time elapsed */
+    private static long timeElasped() {
+        return  endTime - startTime;
     }
 
-    long TimeElasped()
-    {
-        return totalTime = endTime-startTime;
-    }
+    /** WCA Crawl Algorithm used for search with a specific Key Word */
+    public JSONObject searchAlgorithmWithWordDFS(String Searchword) throws IOException {
 
-    public static void SearchAlgorithmDFS(String Searchword) throws IOException {
-        String s = "http://localhost/WebCrawler/Webcrawler/src/main/webapp/sample_site_to_crawl/catalog.php";
-
-        Document doc;
-        doc = Jsoup.connect(s).get();
+        sLength = URL.length();
         pages++;
-
         Elements linksToVisit = doc.getElementsByAttributeValue("class", "nav");
-        //String text = "Beethoven: Complete Symphonies";
-        // Elements ok = doc.getElementsByAttributeValue("alt",text);
-        //System.out.println(linksToVisit);
+        Elements ok = linksToVisit.get(0).getElementsByTag("li");
+//        if (ok.isEmpty()){
+//            throw new IllegalArgumentException("Oups Sorry!!");
+//        }
+        ok.remove(ok.last());
+        for (Element link : ok) {
+            Elements bookdetail = link.getElementsByTag("a");
+            doc = Jsoup.connect(URL + bookdetail.attr("href")).get();
+            pages++;
+            if (depth == 0) {
+                depth++;
+            }
+            Elements detailpage = doc.getElementsByAttributeValue("class", "items");
+            Elements results = detailpage.get(0).getElementsByTag("li");
+            for (Element result : results) {
+                Elements details = result.getElementsByTag("a");
+                doc = Jsoup.connect(URL + details.attr("href")).get();
+                pages++;
+                String name = doc.getElementsByTag("img").attr("alt");
+                if (depth == 1) {
+                    depth++;
+                }
+                if (Searchword.equals(name)){
+                    endTime = System.currentTimeMillis();
+                    Elements detailspage = doc.getElementsByAttributeValue("class", "media-details");
+                    Element table = detailspage.select("table").first();
+                    Elements th = table.getElementsByTag("th");
+                    Elements td = table.getElementsByTag("td");
+                    getJSON(jsonObject2,jsonArray,th,td);
+                    jsonObject2.put("name", Searchword);
+                    jsonObj.put("result", jsonObject2);
+                    //System.out.println(jsonObj);
+                    return jsonObj;
+                } else if (results.last().equals(result)) {
+                    depth = 0;
+                    endTime = System.currentTimeMillis();
+                }
+            }
+        }
+        throw new IllegalArgumentException("Sorry! search word does not exist");
+
+    }
+
+    /** WCA Crawl Algorithm used for search with a specific ID */
+    public JSONObject searchAlgorithmWithIdDFS(int id) throws IOException {
+
+        sLength = URL.length();
+        pages++;
+        Elements linksToVisit = doc.getElementsByAttributeValue("class", "nav");
         Elements ok = linksToVisit.get(0).getElementsByTag("li");
         ok.remove(ok.last());
         for (Element link : ok) {
             Elements bookdetail = link.getElementsByTag("a");
-            doc = Jsoup.connect(s.substring(0, 76) + bookdetail.attr("href")).get();
+            doc = Jsoup.connect(URL + bookdetail.attr("href")).get();
             pages++;
-            if(depth == 0){
+            if (depth == 0) {
                 depth++;
             }
-            Elements bookdetailpage = doc.getElementsByAttributeValue("class", "items");
-            Elements books = bookdetailpage.get(0).getElementsByTag("li");
-            for (Element book : books) {
-                Elements details = book.getElementsByTag("a");
-                doc = Jsoup.connect(s.substring(0, 76) + details.attr("href")).get();
+            Elements detailpage = doc.getElementsByAttributeValue("class", "items");
+            Elements results = detailpage.get(0).getElementsByTag("li");
+            for (Element result : results) {
+                Elements details = result.getElementsByTag("a");
+                doc = Jsoup.connect(URL + details.attr("href")).get();
                 pages++;
-                String name = doc.getElementsByTag("img").attr("alt");
-                if(depth == 1)
-                {
+                int theID = Integer.parseInt(doc.baseUri().substring(sLength + 15));
+                if (depth == 1) {
                     depth++;
                 }
-                if(Searchword.equals(name)){
-
+                if (id == theID) {
+                    endTime = System.currentTimeMillis();
                     Elements detailspage = doc.getElementsByAttributeValue("class", "media-details");
-                    System.out.println(detailspage.get(0));
-                    endTime=System.currentTimeMillis();
-                    return;
-                }
-                if(books.last().equals(book)){
-                    depth=0;
-                    endTime=System.currentTimeMillis();
+                    Element table = detailspage.select("table").first();
+                    Elements th = table.getElementsByTag("th");
+                    Elements td = table.getElementsByTag("td");
+
+                    getJSON(jsonObject2,jsonArray,th,td);
+                    jsonObject2.put("id", id);
+                    jsonObj.put("result", jsonObject2);
+
+                   // System.out.println(jsonObj);
+                    return jsonObj;
+                } else if (results.last().equals(result)) {
+                    depth = 0;
+                    endTime = System.currentTimeMillis();
                 }
             }
+
         }
+        throw new IllegalArgumentException("Sorry! Input ID does not exit");
+    }
+
+    /** Method returning Json Objects */
+    public void getJSON(JSONObject jsonObject2,JSONArray jsonArray,Elements th,Elements td){
+
+        for (int i = 0, l = th.size(); i < l; i++) {
+            String k = th.get(i).text();
+            String v = td.get(i).text();
+            if (v.contains(",")) {
+                jsonArray = new JSONArray();
+                String[] temp = v.split(",");
+                for (int j = 0, length = temp.length; j < length; j++) {
+                    jsonArray.add(temp[j]);
+                }
+                jsonObject2.put(k, jsonArray);
+            } else
+                jsonObject2.put(k, v);
+        }
+        jsonObj.put("totalTime", endTime - startTime);
+        jsonObj.put("pages", pages);
+        jsonObj.put("depth", depth);
+    }
+
+    public JSONObject searchBookAlgorithmWithWordDFS(Book book, String Search){
+        return jsonObj;
     }
 }

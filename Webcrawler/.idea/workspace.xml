@@ -8,18 +8,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/Webcrawler-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/libs/Webcrawler-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Webcrawler_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Webcrawler_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Webcrawler_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Webcrawler_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tci.crawling.CrawlerParameterizedTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tci.crawling.CrawlerParameterizedTest.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tci.crawling.CrawlerTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tci.crawling.CrawlerTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tci.crawling.DummyClassTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tci.crawling.DummyClassTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tci.crawling.ExceptionCrawlerTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tci.crawling.ExceptionCrawlerTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tci.crawling.MockitoTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tci.crawling.MockitoTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.tci.crawling.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.tci.crawling.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.tci.crawling.CrawlerParameterizedTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.tci.crawling.CrawlerParameterizedTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.tci.crawling.CrawlerTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.tci.crawling.CrawlerTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.tci.crawling.DummyClassTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.tci.crawling.DummyClassTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.tci.crawling.ExceptionCrawlerTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.tci.crawling.ExceptionCrawlerTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.tci.crawling.MockitoTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.tci.crawling.MockitoTest.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,6 +37,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Webcrawler$all_tests.coverage" NAME="all_tests Coverage Results" MODIFIED="1515965393493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -63,14 +87,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Webcrawler" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Webcrawler" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -81,23 +98,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CrawlerTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerTest.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="209">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,19 +111,45 @@
       <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="242">
+              <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+              <folding>
+                <element signature="docComment;field#depth#0;class#Crawler#0" expanded="false" />
+                <element signature="method#Crawler#0;class#Crawler#0" expanded="false" />
+                <element signature="method#searchAlgorithmWithWordDFS#0;class#Crawler#0" expanded="false" />
+                <element signature="e#2477#2505#0" expanded="false" />
+                <element signature="method#searchAlgorithmWithIdDFS#0;class#Crawler#0" expanded="false" />
+                <element signature="method#getJSON#0;class#Crawler#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Main.java">
+      <file leaf-file-name="CrawlerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="98" lean-forward="false" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
-              <folding />
+            <state relative-caret-position="266">
+              <caret line="25" column="72" lean-forward="false" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+              <folding>
+                <element signature="method#givenBean_whenHasValue_thenCorrect#0;class#CrawlerTest#0" expanded="false" />
+                <element signature="method#shouldAllowToRetrieve_aSearchForAParticularSearchWord#0;class#CrawlerTest#0" expanded="false" />
+                <element signature="method#shouldAllowToRetrieve_aSearchForAParticularID#0;class#CrawlerTest#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MockitoTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/MockitoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#shouldAllowToRetrieve_aSearchForAParticularBook#0;class#MockitoTest#0" expanded="false" />
+                <element signature="method#verifySpyEffectOfRealInstanceOfGetMusicArtistName#0;class#MockitoTest#0" expanded="false" />
+                <element signature="method#verifyMockitoForGetMusicArtistName#0;class#MockitoTest#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,10 +159,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sys</find>
+      <find>jsonArray</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -139,7 +176,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="/usr/local/Cellar/gradle/4.3.1/libexec" />
+        <entry key="$PROJECT_DIR$" value="C:\Gradle\gradle-4.3.1" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -314,8 +351,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3027741600000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="4014878284" />
+        <entry key="$PROJECT_DIR$" value="3031935115224" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1354555666" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="4281697012" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -345,80 +383,111 @@
               <option name="name" value="Webcrawler" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-base-services-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-core-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-resources-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-build-option-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-cli-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/ant-1.9.6.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-persistent-cache-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-core-api-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/groovy-all-2.4.12.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-model-core-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-kotlin-dsl-tooling-builders-0.12.3.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-messaging-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-wrapper-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-build-cache-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-model-groovy-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/ant-launcher-1.9.6.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-process-services-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-docs-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-tooling-api-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-jvm-services-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-kotlin-dsl-0.12.3.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-native-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-logging-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-runtime-api-info-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-kotlin-dsl-tooling-models-0.12.3.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-installation-beacon-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-base-services-groovy-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/gradle-launcher-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-build-cache-http-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-resources-http-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-version-control-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-testing-base-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-build-init-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-testing-jvm-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-resources-sftp-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-testing-native-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-platform-base-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-language-java-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-platform-native-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-ivy-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-ide-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-diagnostics-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-plugin-development-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-antlr-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-language-groovy-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-dependency-management-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-scala-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-reporting-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-resources-gcs-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-plugins-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-language-scala-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-osgi-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-signing-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-test-kit-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-maven-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-code-quality-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-build-comparison-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-publish-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-language-native-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-platform-play-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-tooling-api-builders-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-ide-play-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-ear-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-resources-s3-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-announce-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-language-jvm-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-plugin-use-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-platform-jvm-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-ide-native-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-composite-builds-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-javascript-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-workers-4.3.1.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="/usr/local/opt/gradle/libexec/lib/plugins/gradle-jacoco-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/announce" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/antlr" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/base-services" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/base-services-groovy" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/build-cache" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/build-cache-http" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/build-comparison" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/build-init" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/build-option" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/cli" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/code-quality" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/composite-builds" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/core" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/core-api" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/dependency-management" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/diagnostics" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/ear" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/ide" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/ide-native" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/ide-play" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/installation-beacon" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/internal-android-performance-testing" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/internal-integ-testing" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/internal-performance-testing" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/internal-testing" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/ivy" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/jacoco" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/javascript" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/jvm-services" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/language-groovy" />
+                  <option value="C:/Gradle/gradle-4.3.1/src/language-java" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/ant-1.9.6.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-base-services-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-base-services-groovy-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-build-cache-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-build-option-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-cli-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-core-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-core-api-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-docs-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-installation-beacon-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-jvm-services-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-kotlin-dsl-0.12.3.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-kotlin-dsl-tooling-builders-0.12.3.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-kotlin-dsl-tooling-models-0.12.3.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-launcher-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-logging-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-messaging-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-model-core-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-model-groovy-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-native-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-persistent-cache-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-process-services-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-resources-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-runtime-api-info-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-tooling-api-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/gradle-wrapper-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/groovy-all-2.4.12.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-announce-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-antlr-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-build-cache-http-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-build-comparison-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-build-init-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-code-quality-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-composite-builds-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-dependency-management-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-diagnostics-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-ear-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-ide-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-ide-native-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-ide-play-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-ivy-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-jacoco-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-javascript-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-language-groovy-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-language-java-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-language-jvm-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-language-native-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-language-scala-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-maven-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-osgi-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-platform-base-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-platform-jvm-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-platform-native-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-platform-play-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-plugin-development-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-plugin-use-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-plugins-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-publish-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-reporting-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-resources-gcs-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-resources-http-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-resources-s3-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-resources-sftp-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-scala-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-signing-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-test-kit-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-testing-base-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-testing-jvm-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-testing-native-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-tooling-api-builders-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-version-control-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/gradle-workers-4.3.1.jar" />
+                  <option value="C:/Gradle/gradle-4.3.1/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -440,13 +509,19 @@
         <option value="$PROJECT_DIR$/src/main/java/Web.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Crawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tci/crawling/Music.java" />
         <option value="$PROJECT_DIR$/src/test/java/DummyClassTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tci/crawling/DummyClassTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerFestTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerAssert.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tci/crawling/Music.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tci/crawling/Movie.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerParameterizedTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tci/crawling/ExceptionCrawlerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tci/crawling/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tci/crawling/Crawler.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tci/crawling/DummyClassTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tci/crawling/MockitoTest.java" />
       </list>
     </option>
   </component>
@@ -466,10 +541,9 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1777" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="width" value="1360" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -545,35 +619,34 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/simononumajuru/GitLab/TCI/Webcrawler/src/test/java/com/tci/crawling/DummyClassTest.java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.tci.crawling" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Farnaz\Documents\WebCrawler\TCIGitHub\TCI\Webcrawler\lib" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ZOE\Desktop\TCI\TCI\Webcrawler\lib" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -590,57 +663,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Webcrawler [test]">
-    <configuration name="CrawlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tci.crawling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Webcrawler_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tci.crawling" />
-      <option name="MAIN_CLASS_NAME" value="com.tci.crawling.CrawlerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="DummyClassTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tci.crawling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Webcrawler_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tci.crawling" />
-      <option name="MAIN_CLASS_NAME" value="com.tci.crawling.DummyClassTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="Gradle.Webcrawler [build]">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -659,6 +682,56 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Webcrawler_main" />
       <envs />
+    </configuration>
+    <configuration name="MockitoTest.shouldAllowToRetrieve_aSearchForAParticularBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.tci.crawling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Webcrawler_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tci.crawling" />
+      <option name="MAIN_CLASS_NAME" value="com.tci.crawling.MockitoTest" />
+      <option name="METHOD_NAME" value="shouldAllowToRetrieve_aSearchForAParticularBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MockitoTest.shouldConnectToJsoup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.tci.crawling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Webcrawler_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tci.crawling" />
+      <option name="MAIN_CLASS_NAME" value="com.tci.crawling.MockitoTest" />
+      <option name="METHOD_NAME" value="shouldConnectToJsoup" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="Webcrawler [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -791,21 +864,42 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="6">
+    <configuration name="all_tests" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" track_test_folders="true" runner="idea" />
+      <module name="Webcrawler_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Gradle.Webcrawler [test]" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DummyClassTest (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CrawlerTest" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.Webcrawler [build]" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.Webcrawler [clean]" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.all_tests" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MockitoTest.shouldConnectToJsoup" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MockitoTest.shouldAllowToRetrieve_aSearchForAParticularBook" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="5" class="java.lang.String" itemvalue="Gradle.Webcrawler [clean]" />
+      <item index="6" class="java.lang.String" itemvalue="Gradle.Webcrawler [build]" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CrawlerTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DummyClassTest (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.Webcrawler [clean]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.Webcrawler [build]" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.Webcrawler [build]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.Webcrawler [clean]" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MockitoTest.shouldConnectToJsoup" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MockitoTest.shouldAllowToRetrieve_aSearchForAParticularBook" />
       </list>
     </recent_temporary>
   </component>
@@ -831,45 +925,62 @@
       <workItem from="1513080755002" duration="1313000" />
       <workItem from="1513196610357" duration="4890000" />
       <workItem from="1513333067394" duration="939000" />
-      <workItem from="1513686929161" duration="1029000" />
-      <workItem from="1513870827687" duration="68000" />
+      <workItem from="1513345583947" duration="9720000" />
+      <workItem from="1513372320780" duration="5887000" />
+      <workItem from="1513636276681" duration="1702000" />
+      <workItem from="1513683186752" duration="87000" />
+      <workItem from="1513683649563" duration="4789000" />
+      <workItem from="1513691388543" duration="425000" />
+      <workItem from="1513692053357" duration="8906000" />
+      <workItem from="1513703059455" duration="3520000" />
+      <workItem from="1513771432528" duration="10459000" />
+      <workItem from="1513809658611" duration="40000" />
+      <workItem from="1513809771581" duration="11458000" />
+      <workItem from="1513871375331" duration="270000" />
+      <workItem from="1514190368236" duration="73000" />
+      <workItem from="1514442970446" duration="143000" />
+      <workItem from="1514576476282" duration="1082000" />
+      <workItem from="1514646014820" duration="11449000" />
+      <workItem from="1514716692533" duration="6669000" />
+      <workItem from="1515962472447" duration="4423000" />
+      <workItem from="1515967702628" duration="132000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DummyClassTest_(1) - 2017.12.13 at 22h 58m 14s.xml">
-      <configuration name="DummyClassTest (1)" configurationId="JUnit" />
+    <history-entry file="MockitoTest_shouldConnectToJsoup - 2018.01.14 at 22h 39m 16s.xml">
+      <configuration name="MockitoTest.shouldConnectToJsoup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DummyClassTest_(1) - 2017.12.13 at 23h 02m 21s.xml">
-      <configuration name="DummyClassTest (1)" configurationId="JUnit" />
+    <history-entry file="MockitoTest_shouldConnectToJsoup - 2018.01.14 at 22h 43m 46s.xml">
+      <configuration name="MockitoTest.shouldConnectToJsoup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DummyClassTest_(1) - 2017.12.13 at 23h 06m 43s.xml">
-      <configuration name="DummyClassTest (1)" configurationId="JUnit" />
+    <history-entry file="MockitoTest_shouldConnectToJsoup - 2018.01.14 at 22h 47m 08s.xml">
+      <configuration name="MockitoTest.shouldConnectToJsoup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Webcrawler_[check] - 2017.12.13 at 22h 38m 25s.xml">
-      <configuration name="Webcrawler [check]" configurationId="GradleRunConfiguration" />
+    <history-entry file="MockitoTest_shouldConnectToJsoup - 2018.01.14 at 22h 47m 19s.xml">
+      <configuration name="MockitoTest.shouldConnectToJsoup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Webcrawler_[check] - 2017.12.13 at 23h 06m 31s.xml">
-      <configuration name="Webcrawler [check]" configurationId="GradleRunConfiguration" />
+    <history-entry file="MockitoTest_shouldConnectToJsoup - 2018.01.14 at 22h 51m 26s.xml">
+      <configuration name="MockitoTest.shouldConnectToJsoup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Webcrawler_[test] - 2017.12.13 at 22h 35m 51s.xml">
-      <configuration name="Webcrawler [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="MockitoTest_shouldConnectToJsoup - 2018.01.14 at 22h 54m 03s.xml">
+      <configuration name="MockitoTest.shouldConnectToJsoup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Webcrawler_[test] - 2017.12.13 at 22h 38m 28s.xml">
-      <configuration name="Webcrawler [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="MockitoTest_shouldConnectToJsoup - 2018.01.14 at 22h 54m 20s.xml">
+      <configuration name="MockitoTest.shouldConnectToJsoup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Webcrawler_[test] - 2017.12.13 at 23h 06m 26s.xml">
-      <configuration name="Webcrawler [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="MockitoTest_shouldConnectToJsoup - 2018.01.14 at 22h 54m 51s.xml">
+      <configuration name="MockitoTest.shouldConnectToJsoup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Webcrawler_[test] - 2017.12.21 at 16h 41m 01s.xml">
-      <configuration name="Webcrawler [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="MockitoTest_shouldConnectToJsoup - 2018.01.14 at 22h 56m 17s.xml">
+      <configuration name="MockitoTest.shouldConnectToJsoup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Webcrawler_[test] - 2017.12.21 at 16h 41m 32s.xml">
-      <configuration name="Webcrawler [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="all_tests - 2018.01.14 at 22h 29m 58s.xml">
+      <configuration name="all_tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9537000" />
+    <option name="totallyTimeSpent" value="89685000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -881,36 +992,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1360" height="768" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30350664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736573" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.49293286" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32125986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2732769" sideWeight="0.49713877" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20100144" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13447782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27153847" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.4858657" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20153846" sideWeight="0.47435898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.49293286" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37605804" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2539342" sideWeight="0.525641" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -920,59 +1033,65 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerTest.java">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Crawler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Book.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="195">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/DummyClassTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="method#givenBean_whenHasValue_thenCorrect#0;class#CrawlerTest#0" expanded="false" />
+            <element signature="method#shouldAllowToRetrieve_aSearchForAParticularSearchWord#0;class#CrawlerTest#0" expanded="false" />
+            <element signature="method#shouldAllowToRetrieve_aSearchForAParticularID#0;class#CrawlerTest#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="98" lean-forward="false" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
+        <state relative-caret-position="76">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/net/DualStackPlainSocketImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="98" lean-forward="true" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
-          <folding />
+        <state relative-caret-position="56">
+          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;field#depth#0;class#Crawler#0" expanded="false" />
+            <element signature="method#Crawler#0;class#Crawler#0" expanded="false" />
+            <element signature="method#searchAlgorithmWithWordDFS#0;class#Crawler#0" expanded="false" />
+            <element signature="e#2477#2505#0" expanded="false" />
+            <element signature="method#searchAlgorithmWithIdDFS#0;class#Crawler#0" expanded="false" />
+            <element signature="method#getJSON#0;class#Crawler#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -981,28 +1100,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#givenBean_whenHasValue_thenCorrect#0;class#CrawlerTest#0" expanded="false" />
+            <element signature="method#shouldAllowToRetrieve_aSearchForAParticularSearchWord#0;class#CrawlerTest#0" expanded="false" />
+            <element signature="method#shouldAllowToRetrieve_aSearchForAParticularID#0;class#CrawlerTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/DummyClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/DummyClassTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1010,13 +1116,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Movie.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1028,22 +1128,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding />
+          <folding>
+            <element signature="docComment;field#depth#0;class#Crawler#0" expanded="false" />
+            <element signature="method#Crawler#0;class#Crawler#0" expanded="false" />
+            <element signature="method#searchAlgorithmWithWordDFS#0;class#Crawler#0" expanded="false" />
+            <element signature="e#2477#2505#0" expanded="false" />
+            <element signature="method#searchAlgorithmWithIdDFS#0;class#Crawler#0" expanded="false" />
+            <element signature="method#getJSON#0;class#Crawler#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,147 +1152,175 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/DummyClassTest.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/DummyClassTest.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/DummyClassTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DummyClassTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DummyClassTest.java" />
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/DummyClassTest.java" />
+    <entry file="file://$PROJECT_DIR$/build/test-results/test/TEST-com.tci.crawling.CrawlerTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Results - CrawlerTest_methodShouldThrowNCDForSearchAlgorithmDFS.html" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerAssert.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerFestTest.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/pl.pragmatists/JUnitParams/1.1.1/c90b5cb0b6fb0c332a3bbb9ea9bb467fb7604cb7/JUnitParams-1.1.1-sources.jar!/junitparams/internal/parameters/ParamsFromMethodCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/8269667b73d9616600359a9b0ba1b1c7d0cf7a97/mockito-core-1.10.19-sources.jar!/org/mockito/internal/runners/JUnit45AndHigherRunnerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DummyClassTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="244">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Music.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DummyClassTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/DummyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#204#205#0" expanded="false" />
+            <element signature="e#231#232#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/DummyClassTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Movie.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/ExceptionCrawlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerParameterizedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="method#getURL#0;class#CrawlerParameterizedTest#0" expanded="false" />
+            <element signature="method#constructorShouldSetURL#0;class#CrawlerParameterizedTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="25" column="72" lean-forward="false" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+          <folding>
+            <element signature="method#givenBean_whenHasValue_thenCorrect#0;class#CrawlerTest#0" expanded="false" />
+            <element signature="method#shouldAllowToRetrieve_aSearchForAParticularSearchWord#0;class#CrawlerTest#0" expanded="false" />
+            <element signature="method#shouldAllowToRetrieve_aSearchForAParticularID#0;class#CrawlerTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tci/crawling/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="98" lean-forward="false" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/CrawlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        <state relative-caret-position="242">
+          <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;field#depth#0;class#Crawler#0" expanded="false" />
+            <element signature="method#Crawler#0;class#Crawler#0" expanded="false" />
+            <element signature="method#searchAlgorithmWithWordDFS#0;class#Crawler#0" expanded="false" />
+            <element signature="e#2477#2505#0" expanded="false" />
+            <element signature="method#searchAlgorithmWithIdDFS#0;class#Crawler#0" expanded="false" />
+            <element signature="method#getJSON#0;class#Crawler#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tci/crawling/MockitoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#shouldAllowToRetrieve_aSearchForAParticularBook#0;class#MockitoTest#0" expanded="false" />
+            <element signature="method#verifySpyEffectOfRealInstanceOfGetMusicArtistName#0;class#MockitoTest#0" expanded="false" />
+            <element signature="method#verifyMockitoForGetMusicArtistName#0;class#MockitoTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="gradleExecuteTaskHistory">
+    <option value="" />
   </component>
   <component name="masterDetails">
     <states>
@@ -1245,7 +1373,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Webcrawler_test|Webcrawler</last-edited>
+          <last-edited>Webcrawler_main|Webcrawler</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1269,7 +1397,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jsoup-1.11.2</last-edited>
+          <last-edited>json-simple-1.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

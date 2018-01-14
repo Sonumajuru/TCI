@@ -5,7 +5,7 @@ public class Music {
     private String genre;
     private String format;
     private int year;
-    private String artise;
+    private String artist;
 
     public String getName() {
         return name;
@@ -39,19 +39,19 @@ public class Music {
         this.year = year;
     }
 
-    public String getAartise() {
-        return artise;
+    public String getArtist() {
+        return artist;
     }
 
-    public void setartise(String artise) {
-        this.artise = artise;
+    public void setArtist(String artise) {
+        this.artist = artise;
     }
 
-    public Music(String name, String genre, String format, int year, String artise) {
+    public Music(String name, String genre, String format, int year, String artist) {
         this.name = name;
         this.genre = genre;
         this.format = format;
         this.year = year;
-        this.artise = artise;
+        this.artist = artist;
     }
 }

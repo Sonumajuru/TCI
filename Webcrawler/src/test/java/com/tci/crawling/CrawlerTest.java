@@ -1,27 +1,44 @@
 package com.tci.crawling;
 
-import static junit.framework.TestCase.assertEquals;
-import static org.junit.Assert.assertNotEquals;
-
+import org.json.simple.JSONObject;
 import org.junit.Test;
+
+import java.io.IOException;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.hasProperty;
+import static org.junit.Assert.assertNotNull;
 
 public class CrawlerTest {
 
-    private Crawler crawls = new Crawler();
-
-    /** Pages Exployed */
-    @Test
-    // Testing for Correct Mean
-    public void testForPagesExploited() throws Exception {
-        //To satisfy the test case for now
-        assertNotEquals("Pages exploited is: ",10, crawls.PagesExployed());
-    }
+    private Crawler crawls = new Crawler("http://localhost/WebCrawler/Webcrawler/src/main/webapp/sample_site_to_crawl/");
+    private JSONObject jsonObject;
 
     @Test
-    // Testing for Correct Mean
-    public void testForPagesExploited2() throws Exception {
-        //To satisfy the test case for now
-        assertEquals("Pages exploited is: ",0, crawls.PagesExployed());
+    public void givenBean_whenHasValue_thenCorrect() {
+        Crawler crawler = new Crawler("http://localhost/WebCrawler/Webcrawler/src/main/webapp/sample_site_to_crawl/");
+        assertThat(crawler, hasProperty("URL", equalTo("http://localhost/WebCrawler/Webcrawler/src/main/webapp/sample_site_to_crawl/")));
     }
 
+    /** Testing for the SearchAlgorithmWithWordDFS with a key searchWord*/
+    @Test
+    public void shouldAllowToRetrieve_aSearchForAParticularSearchWord() {
+        try {
+            assertNotNull(crawls.searchAlgorithmWithWordDFS("Clean Code: A Handbook of Agile Software Craftsmanship"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    /** Testing for the SearchAlgorithmWithIdDFS with a key id number*/
+    @Test
+    public void shouldAllowToRetrieve_aSearchForAParticularID() {
+
+        try {
+            assertNotNull( crawls.searchAlgorithmWithIdDFS(102));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
 }

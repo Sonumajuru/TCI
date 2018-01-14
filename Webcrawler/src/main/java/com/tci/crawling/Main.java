@@ -6,13 +6,17 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        Crawler crawler = new Crawler();
-        System.out.print("********************* Web Crawling test With Jsoup **********************");
+        Crawler crawler = new Crawler("http://localhost/WebCrawler/Webcrawler/src/main/webapp/sample_site_to_crawl/");
 
+        System.out.print("********************* Web Crawling test With Jsoup **********************\n");
 
-        crawler.SearchAlgorithmDFS("Office Space");
-        System.out.println("Number of pages explored: "+ crawler.PagesExployed());
-        System.out.println("Search depth: "+ crawler.SearchedDepth());
-        System.out.println("Time elapsed: " + crawler.TimeElasped() +"ms");
+        System.out.print("################################## Web Crawling with ID ##########################################\n");
+
+        System.out.print(crawler.searchAlgorithmWithIdDFS(203) + " \n");
+
+        System.out.print("################################## Web Crawling with search word ##################################\n");
+
+        System.out.print(crawler.searchAlgorithmWithWordDFS("No Fences"));
+
     }
 }
