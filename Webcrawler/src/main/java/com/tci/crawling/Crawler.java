@@ -49,7 +49,15 @@ import java.io.IOException;
          */
         private int sLength;
 
-        public boolean connection = false;
+        public boolean isConnection() {
+            return connection;
+        }
+
+        public void setConnection(boolean connection) {
+            this.connection = connection;
+        }
+
+        private boolean connection = false;
 
         /**
           *Constructor @param URL
@@ -76,7 +84,7 @@ import java.io.IOException;
         jsonObject2 = new JSONObject();
         try {
             doc = Jsoup.connect(URL).get();
-            connection = true;
+            this.setConnection(true);
             return connection;
 
         } catch (IOException e) {
@@ -144,7 +152,7 @@ import java.io.IOException;
 
         sLength = URL.length();
         pages++;
-        Elements linksToVisit = doc.getElementsByAttributeValue("class", "nav");
+    Elements linksToVisit = doc.getElementsByAttributeValue("class", "nav");
         Elements ok = linksToVisit.get(0).getElementsByTag("li");
         ok.remove(ok.last());
         for (Element link : ok) {

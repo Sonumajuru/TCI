@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tci.crawling.CrawlerParameterizedTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-01-14T22:09:15" hostname="ZOE-PC" time="1.308">
+<testsuite name="com.tci.crawling.CrawlerParameterizedTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-01-14T22:52:13" hostname="ZOE-PC" time="1.136">
   <properties/>
-  <testcase name="constructorShouldSetURL(http://localhost/WebCrawler/Webcrawler/src/main/webapp/sample_site_to_crawl/) [0]" classname="com.tci.crawling.CrawlerParameterizedTest" time="1.308"/>
+  <testcase name="constructorShouldSetURL(http://localhost/WebCrawler/Webcrawler/src/main/webapp/sample_site_to_crawl/) [0]" classname="com.tci.crawling.CrawlerParameterizedTest" time="1.136"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)

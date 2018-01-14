@@ -54,7 +54,7 @@ public class MockitoTest {
     public void shouldConnectToJsoup() {
         /*Arrange*/
          /*Act*/
-        boolean result = crawls.connectToJsoup();
+        boolean result = crawls.isConnection();
         /*Assert*/
         assertTrue("Connection Successful ", result);
     }
