@@ -12,13 +12,13 @@ import static org.junit.Assert.assertNotNull;
 
 public class CrawlerTest {
 
-    private Crawler crawls = new Crawler("http://localhost/WebCrawler/Webcrawler/src/main/webapp/sample_site_to_crawl/");
+    private Crawler crawls = new Crawler("http://localhost:9000/sample_site_to_crawl/");
     private JSONObject jsonObject;
 
     @Test
     public void givenBean_whenHasValue_thenCorrect() {
-        Crawler crawler = new Crawler("http://localhost/WebCrawler/Webcrawler/src/main/webapp/sample_site_to_crawl/");
-        assertThat(crawler, hasProperty("URL", equalTo("http://localhost/WebCrawler/Webcrawler/src/main/webapp/sample_site_to_crawl/")));
+        Crawler crawler = new Crawler("http://localhost:9000/sample_site_to_crawl/");
+        assertThat(crawler, hasProperty("URL", equalTo("http://localhost:9000/sample_site_to_crawl/")));
     }
 
     /** Testing for the SearchAlgorithmWithWordDFS with a key searchWord*/

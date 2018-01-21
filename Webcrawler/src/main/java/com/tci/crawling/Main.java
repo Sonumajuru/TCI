@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        Crawler crawler = new Crawler("http://localhost/WebCrawler/Webcrawler/src/main/webapp/sample_site_to_crawl/");
+        Crawler crawler = new Crawler("http://localhost:9000/sample_site_to_crawl/giy");
 
         System.out.print("********************* Web Crawling test With Jsoup **********************\n");
 

@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class ExceptionCrawlerTest {
 
-    private Crawler crawls = new Crawler("http://localhost/WebCrawler/Webcrawler/src/main/webapp/sample_site_to_crawl/");
+    private Crawler crawls = new Crawler("http://localhost:9000/sample_site_to_crawl/");
 
     /** Testing for IllegalArgumentException Exceptions
      * Since we have Tags in the web and if a Tab is empty then

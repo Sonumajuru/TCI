@@ -21,7 +21,7 @@ public class MockitoTest {
     private List<String> authors = new ArrayList<>();
 
     @Mock
-    private Crawler crawls = new Crawler("http://localhost/WebCrawler/Webcrawler/src/main/webapp/sample_site_to_crawl/");
+    private Crawler crawls = new Crawler("http://localhost:9000/sample_site_to_crawl/");
     @Mock
     private Music spyMusic;
     @Mock
