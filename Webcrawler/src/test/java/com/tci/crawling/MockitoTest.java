@@ -1,18 +1,23 @@
 package com.tci.crawling;
 
+/** This test class will test for Test Double cases i.e the Mockito Tests */
+
 import org.json.simple.JSONObject;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.*;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
+import static junit.framework.TestCase.assertFalse;
+import static junit.framework.TestCase.assertTrue;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertSame;
+import static org.mockito.Mockito.*;
 
 /** This test class will test for Test Double cases i.e the Mockito Tests */
 @RunWith(MockitoJUnitRunner.class)
@@ -89,28 +94,42 @@ public class MockitoTest {
     }
 
     /** Testing for Mocks */
-    /** Testing to verify if the mock returns a music object.*/
+
+    /** Testing to verify if the mock returns a music object.
+     * the test case creates a mock class and calls the method getArtist.
+     * It enforces the method to use _artistName as it’s return.
+     * This is then tested via an assertEquals method as shown.
+     * */
     @Test
     public void verifyMockitoForGetMusicArtistName() {
-
-        //   Test Double setup
-        String _name = "Beethoven: Complete Symphonies";
-        String _genre = "Classical";
-        String _format = "CD";
-        int _year = 2012;
-        String _artistName = "Ludwig van Beethoven";
-        // exercise
-        music = new Music(_name,_genre,_format,_year,_artistName);
-
+        // create mock
         Music mockito = mock(Music.class);
 
-        //if the author is "Ludwig van Beethoven", then return a 'music' object.
-        when(mockito.getArtist()).thenReturn(_artistName);
+        // define return value for method getArtist()
+       when(mockito.getArtist()).thenReturn(artistName);
 
-        //2. Test method
-        String result = music.getArtist();
-
-        //3. Verify result
-        assertEquals(result, "Ludwig van Beethoven");
+        //3. use mock in test..
+        assertEquals(mockito.getArtist(), "Ludwig van Beethoven");
     }
+
+
+    /** Testing to verify if the mock returns a music object.
+     * the test case creates a mock class and calls the method getArtist.
+     * It enforces the method to use _artistName as it’s return.
+     * This is then tested via an verify method as shown.
+     * */
+    @Test
+    public void verifyGetArtistMockitoCall() {
+        // create and configure mock
+        Music mockito = Mockito.mock(Music.class);
+
+        when(mockito.getArtist()).thenReturn(artistName);
+
+        // call method getArtist on the mock to obtain parameter value
+        mockito.getArtist();
+
+        // now check if method getArtist was called
+      verify(mockito, atLeastOnce()).getArtist();
+    }
+
 }
